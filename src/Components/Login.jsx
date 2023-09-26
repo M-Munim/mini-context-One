@@ -24,7 +24,7 @@ const Login = () => {
                 onChange={(e) => setUsername(e.target.value)}
             />
             <br />
-            <input className='field' type="text"
+            <input className='field' type="password"
                 placeholder='Password'
                 // take ur value from password
                 value={password}
