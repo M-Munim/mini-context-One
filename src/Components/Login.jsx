@@ -16,21 +16,22 @@ const Login = () => {
     return (
         <div>
             <h2>Login</h2>
-            <input type="text"
+            <input className='field' type="text"
                 placeholder='Username'
                 // take ur value from username
                 value={username}
                 // if any change occur in filed 
                 onChange={(e) => setUsername(e.target.value)}
             />
-
-            <input type="text"
+            <br />
+            <input className='field' type="text"
                 placeholder='Password'
                 // take ur value from password
                 value={password}
                 // if any change occur in filed 
                 onChange={(e) => setPassword(e.target.value)}
             />
+            <br />
             <button onClick={handleSubmit}>Submit</button>
         </div>
     )
